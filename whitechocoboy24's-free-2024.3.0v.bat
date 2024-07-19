@@ -7,7 +7,7 @@
 	cmd /u /c echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "%~0", "%params%", "", "runas", 1 > "%temp%\getadmin.vbs"&cscript //nologo "%temp%\getadmin.vbs"&exit
 	:GotPrivileges
 	::::::::::::::::::::::::::::
-	color 04
+	color 05
 	title Online KMS Activation Script v5.0
 	setlocal enabledelayedexpansion
 	setlocal EnableExtensions
